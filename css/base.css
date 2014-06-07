@@ -54,14 +54,13 @@ strong {
 }
 p {
 	margin: 0 0 0.5em;
-	max-width: 634px;
 	font-family: 'Orbitron', 'sans-serif';
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Orbitron', 'sans-serif';
 	font-weight: normal;
 	line-height: 1.2em;
-	padding: 0.5em 0 0.25em;
+	padding: 0.5em 0 0.25em 0.5em;
 }
 
 h1 {
@@ -116,11 +115,17 @@ hr {
 	text-align: center;
 }
 
-#text {
-	max-width: none;
+
+.text {
+	max-width: 800px;
 	text-align: center;
 	font-family: monospace;
 	color: black;
+	margin-left: 280px;
+}
+
+.link {
+	color: red;
 }
 
 .single {

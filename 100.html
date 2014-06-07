@@ -14,12 +14,20 @@
       <img class="single" src="images/100_laika.jpg" alt="100 Continue">
       <a href="http://en.wikipedia.org/wiki/List_of_HTTP_status_codes#1xx_Server_Error"><h3>100 Continue</h3></a>
       <div id="body">
-        <p id="text">This means that the server has received the request headers, and that the client should proceed to send the request body (in the case of a request for which a body needs to be sent; for example, a POST request). If the request body is large, sending it to a server when a request has already been rejected based upon inappropriate headers is inefficient. To have a server check if the request could be accepted based on the request's headers alone, a client must send Expect: 100-continue as a header in its initial request and check if a 100 Continue status code is received in response before continuing (or receive 417 Expectation Failed and not continue).</p>
+        <p class="text">This means that the server has received the request headers, and that the client should proceed to send the request body (in the case of a request for which a body needs to be sent; for example, a POST request). If the request body is large, sending it to a server when a request has already been rejected based upon inappropriate headers is inefficient. To have a server check if the request could be accepted based on the request's headers alone, a client must send Expect: 100-continue as a header in its initial request and check if a 100 Continue status code is received in response before continuing (or receive 417 Expectation Failed and not continue).</p>
         <br>
-        <h5>About this image</h5>
-        <div id="body">
-          <p id="text">Laika was the first dog to orbit the Earth.</p> 
+        <br>
+        
+        <div style="height: 1px; background-color: grey; text-align: center">
+          <h6><span style="background-color: white; position: relative; top: -1.0em; padding: 15px">About this image</span></h6>
         </div>
+        
+        <br>
+        <div id="body">
+          <p class="text">Laika was the first dog to orbit the Earth.</p> 
+          <p class="text"><a httpref="http://en.wikipedia.org/wiki/Laika">read more</a></p>
+        </div>
+        
         <br>
         <br>
         <br>
